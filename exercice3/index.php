@@ -16,6 +16,7 @@
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
+      // Création et initialisation du tableau
       $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
       echo 'Valeur index 5 du tableau : '.$month[5];
     ?>
