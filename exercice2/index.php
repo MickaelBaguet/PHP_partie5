@@ -11,13 +11,14 @@
       <div class="container">
         <h1 class="display-3">Exercice 2 - PHP</h1>
         <h3>Partie 5</h3>
-        <p class="lead">Avec le tableau de l'exercice 1, afficher la valeur de la troisième ligne de ce tableau.</p>
+        <p class="lead">Avec le tableau de l'exercice 1, afficher la valeur de la troisième
+        ligne de ce tableau.</p>
       </div>
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
       $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
-       echo 'Valeur numéro 3 du tableau : '.$month[3];
+      echo 'Valeur numéro 3 du tableau : '.$month[3];
     ?>
   </div>
 </body>

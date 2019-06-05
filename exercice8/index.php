@@ -11,17 +11,20 @@
       <div class="container">
         <h1 class="display-3">Exercice 8 - PHP</h1>
         <h3>Partie 5</h3>
-        <p class="lead">Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau.</p>
+        <p class="lead">Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs
+        de ce tableau.</p>
       </div>
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
-      $month = array("janvier","février","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","décembre");
+      $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
       // On récup la tailel du tableau
       $arrlength = count($month);
-      // On utilise un for pour les tableau 'classique'
+      // On utilise un for pour les tableaux 'classique'
       for($x = 0; $x < $arrlength; $x++) {
-        echo '<p> Mois n°'.$x.' : '.$month[$x].'</p>';
+    ?>
+        <p> Mois n°<?= $x ?> : <?= $month[$x] ?></p>
+    <?php
       }
     ?>
   </div>

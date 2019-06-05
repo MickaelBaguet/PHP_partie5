@@ -17,7 +17,7 @@
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
       $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
-       echo 'Valeur index 5 du tableau : '.$month[5];
+      echo 'Valeur index 5 du tableau : '.$month[5];
     ?>
   </div>
 </body>

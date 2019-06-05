@@ -18,8 +18,8 @@
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
-    // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
-    // clef => valeur
+      // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
+      // clef => valeur
       $dep = array(
         59 => 'Nord',
         62 => 'Pas-de-Calais',
@@ -27,10 +27,12 @@
         60 => 'Oise',
         80 => 'Somme',
       );
-      // On utilise un foreach pour les tableau associatif ne récupérant la clef
+      // On utilise un foreach pour les tableaux associatif ne récupérant la clef
       // et sa valeur correspondante
       foreach($dep as $x => $x_value) {
-        echo "<p>Le département ".$x." a le numéro ".$x_value.'.</p>';
+    ?>
+        <p>Le département <?= $x ?> a le numéro <?= $x_value ?>.</p>
+    <?php  
       }
     ?>
   </div>

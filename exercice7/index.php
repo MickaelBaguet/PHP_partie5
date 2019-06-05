@@ -11,13 +11,14 @@
       <div class="container">
         <h1 class="display-3">Exercice 5 - PHP</h1>
         <h3>Partie 7</h3>
-        <p class="lead">Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département de la ville de Reims.<p>
+        <p class="lead">Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département
+        de la ville de Reims.<p>
       </div>
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
-    // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
-    // clef => valeur
+      // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
+      // clef => valeur
       $dep = array(
         59 => 'Nord',
         62 => 'Pas-de-Calais',

@@ -18,7 +18,7 @@
     <?php
       $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
       $month[8] = 'août';
-      echo 'Valeur index 8 du tableau : '.$month[8];
+      echo 'Nouvelle valeur index 8 : '.$month[8];
     ?>
   </div>
 </body>

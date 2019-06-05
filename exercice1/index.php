@@ -16,7 +16,7 @@
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
-      $cars = array("janvier","février","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","décembre");
+      $cars = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
     ?>
   </div>
 </body>

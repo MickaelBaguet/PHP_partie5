@@ -17,8 +17,8 @@
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
-    // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
-    // clef => valeur
+      // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
+      // clef => valeur
       $dep = array(
         59 => 'Nord',
         62 => 'Pas-de-Calais',
