@@ -17,13 +17,14 @@
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
-      $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
-      // On récup la tailel du tableau
-      $arrlength = count($month);
+      $months = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
+      // On récup la taille du tableau
+      $arrLength = count($months);
       // On utilise un for pour les tableaux 'classique'
-      for($x = 0; $x < $arrlength; $x++) {
+      for($x = 0; $x < $arrLength; $x++) {
+        $nbr = $x+1;
     ?>
-        <p> Mois n°<?= $x ?> : <?= $month[$x] ?></p>
+        <p> Valeur n°<?= $x+1 ?> : <?= $months[$x] ?></p>
     <?php
       }
     ?>

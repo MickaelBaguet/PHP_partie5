@@ -19,15 +19,15 @@
     <?php
       // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
       // clef => valeur
-      $dep = array(
-        59 => 'Nord',
-        62 => 'Pas-de-Calais',
-        2 => 'Aisne',
-        60 => 'Oise',
-        80 => 'Somme',
+      $county = array(
+        '59' => 'Nord',
+        '62' => 'Pas-de-Calais',
+        '02' => 'Aisne',
+        '60' => 'Oise',
+        '80' => 'Somme',
       );
-      $dep[51] = 'Reims';
-      echo 'Nouvel élément du tableau : '.$dep[51];
+      $county['51'] = 'Marne';
+      echo 'Nouvel élément du tableau : '.$county['51'];
     ?>
   </div>
 </body>

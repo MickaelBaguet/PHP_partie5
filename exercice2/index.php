@@ -18,8 +18,10 @@
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
       // Création et initialisation du tableau
+      // Autre déclaration d'un tableau :
+      // $monTableau = [1, 2, 3, 4];
       $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
-      echo 'Valeur numéro 3 du tableau : '.$month[3];
+      echo 'Valeur numéro 3 du tableau : '.$month[2];
     ?>
   </div>
 </body>

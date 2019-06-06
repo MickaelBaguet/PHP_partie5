@@ -18,14 +18,14 @@
     <?php
       // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
       // clef => valeur
-      $dep = array(
-        59 => 'Nord',
-        62 => 'Pas-de-Calais',
-        2 => 'Aisne',
-        60 => 'Oise',
-        80 => 'Somme',
+      $county = array(
+        '59' => 'Nord',
+        '62' => 'Pas-de-Calais',
+        '02' => 'Aisne',
+        '60' => 'Oise',
+        '80' => 'Somme',
       );
-      echo 'Valeur index 59 du tableau : '.$dep[59];
+      echo 'Valeur index 59 du tableau : '.$county['59'];
     ?>
   </div>
 </body>

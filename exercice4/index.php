@@ -16,9 +16,9 @@
     </div>
     <!-- Balise signifiant que la suite est en PHP -->
     <?php
-      $month = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
-      $month[8] = 'août';
-      echo 'Nouvelle valeur index 8 : '.$month[8];
+      $months = array('janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre');
+      $months[7] = 'août';
+      echo 'Nouvelle valeur \'aout\' index 7 : '.$months[7];
     ?>
   </div>
 </body>

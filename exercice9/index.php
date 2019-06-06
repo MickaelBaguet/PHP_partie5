@@ -18,16 +18,16 @@
     <?php
       // Déclaration d'un tableau associatif avec des clefs et des valeurs associées
       // clef => valeur
-      $dep = array(
-        59 => 'Nord',
-        62 => 'Pas-de-Calais',
-        2 => 'Aisne',
-        60 => 'Oise',
-        80 => 'Somme',
+      $county = array(
+        '59' => 'Nord',
+        '62' => 'Pas-de-Calais',
+        '02' => 'Aisne',
+        '60' => 'Oise',
+        '80' => 'Somme',
       );
-      // On utilise un foreach pour les tableau associatif ne récupérant la clef
+      // On utilise un foreach pour les tableau associatif en récupérant la clef
       // et sa valeur correspondante
-      foreach($dep as $x => $x_value) {
+      foreach($county as $x => $x_value) {
     ?>
         <p>Clé = <?= $x ?>, Valeur = <?= $x_value ?></p>
     <?php
